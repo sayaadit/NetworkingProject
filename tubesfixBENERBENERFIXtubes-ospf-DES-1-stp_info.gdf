@@ -1,0 +1,47 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Campus Network.SERVER,0,Common ST,root,none
+Campus Network.SERVER,0,Common ST,designated_port,Campus Network.DATA CENTRE <-> SERVER
+Campus Network.SERVER,0,Common ST,designated_port,Campus Network.SERVER <-> WEB SERVER
+Campus Network.SERVER,0,Common ST,designated_port,Campus Network.SERVER <-> FTP SERVER
+Campus Network.SERVER,0,Common ST,designated_port,Campus Network.SERVER <-> MAIL SERVER
+Campus Network.SERVER,0,Common ST,designated_port,Campus Network.SERVER <-> DB SERVER
+Campus Network.SWITCH FTE,0,Common ST,root,none
+Campus Network.SWITCH FTE,0,Common ST,designated_port,Campus Network.FTE <-> SWITCH FTE
+Campus Network.SWITCH FTE,0,Common ST,designated_port,Campus Network.GEDUNG O <-> SWITCH FTE
+Campus Network.SWITCH FTE,0,Common ST,designated_port,Campus Network.SWITCH FTE <-> GEDUNG N
+Campus Network.SWITCH FTE,0,Common ST,designated_port,Campus Network.GEDUNG P <-> SWITCH FTE
+Campus Network.SWITCH FIT,0,Common ST,root,none
+Campus Network.SWITCH FIT,0,Common ST,designated_port,Campus Network.FIT <-> SWITCH FIT
+Campus Network.SWITCH FIT,0,Common ST,designated_port,Campus Network.GEDUNG FIT <-> SWITCH FIT
+Campus Network.SWITCH FIF,0,Common ST,root,none
+Campus Network.SWITCH FIF,0,Common ST,designated_port,Campus Network.FIF <-> SWITCH FIF
+Campus Network.SWITCH FIF,0,Common ST,designated_port,Campus Network.SWITCH FIF <-> GEDUNG E
+Campus Network.SWITCH FIF,0,Common ST,designated_port,Campus Network.GEDUNG F <-> SWITCH FIF
+Campus Network.SWITCH FEB,0,Common ST,root,none
+Campus Network.SWITCH FEB,0,Common ST,designated_port,Campus Network.FEB <-> SWITCH FEB
+Campus Network.SWITCH FEB,0,Common ST,designated_port,Campus Network.GEDUNG FEB-C <-> SWITCH FEB
+Campus Network.SWITCH FEB,0,Common ST,designated_port,Campus Network.GEDUNG FEB-D <-> SWITCH FEB
+Campus Network.SWITCH FEB,0,Common ST,designated_port,Campus Network.GEDUNG DEKANAT <-> SWITCH FEB
+Campus Network.SWITCH FRI,0,Common ST,root,none
+Campus Network.SWITCH FRI,0,Common ST,designated_port,Campus Network.FRI <-> SWITCH FRI
+Campus Network.SWITCH FRI,0,Common ST,designated_port,Campus Network.GEDUNG C <-> SWITCH FRI
+Campus Network.SWITCH FRI,0,Common ST,designated_port,Campus Network.GEDUNG MANUFAKTUR <-> SWITCH FRI
+Campus Network.SWITCH FIK,0,Common ST,root,none
+Campus Network.SWITCH FIK,0,Common ST,designated_port,Campus Network.FIK <-> SWITCH FIK
+Campus Network.SWITCH FIK,0,Common ST,designated_port,Campus Network.GEDUNG FIK <-> SWITCH FIK
+Campus Network.SWITCH FKB,0,Common ST,root,none
+Campus Network.SWITCH FKB,0,Common ST,designated_port,Campus Network.FKB <-> SWITCH FKB
+Campus Network.SWITCH FKB,0,Common ST,designated_port,Campus Network.GEDUNG FKB-A <-> SWITCH FKB
+Campus Network.SWITCH FKB,0,Common ST,designated_port,Campus Network.GEDUNG FKB-B <-> SWITCH FKB
+Campus Network.node_0,0,Common ST,root,none
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FIT
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FEB
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> DATA CENTRE
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FKB
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FIK
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FRI
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FIF
+Campus Network.node_0,0,Common ST,designated_port,Campus Network.node_0 <-> FTE
